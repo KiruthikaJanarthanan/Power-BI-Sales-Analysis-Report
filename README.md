@@ -6,6 +6,7 @@ This project can be a **fully automated sales analysis system** in Power BI, des
 
 [VIEW FILE HERE](https://drive.google.com/file/d/1KGW4LE38xvezZD1msP8B6jwXf911jjEm/view?usp=drive_link)
 
+SALES REPORT2 IMAGE(attached in files section) IS THE REPORT AUTO-UPDATED WITH SALES DATA OF YEAR 2022.
 ### **Key Automation Steps:**
 
 1. **Direct Email Integration** – Power BI connects to an **organizational email** to fetch attachments automatically.
