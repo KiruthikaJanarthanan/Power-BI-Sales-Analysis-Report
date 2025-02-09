@@ -4,7 +4,7 @@
 
 This project can be a **fully automated sales analysis system** in Power BI, designed to process **monthly sales data received via email attachments**. Without manually opening emails or attachments, **Power BI connects directly to an organizational email inbox**, extracts sales data using **Power Query Editor**, and updates the dashboard automatically.
 
-[VIEW FILE HERE](https://drive.google.com/file/d/1KGW4LE38xvezZD1msP8B6jwXf911jjEm/view?usp=drive_link)
+[VIEW FILE HERE](https://app.powerbi.com/view?r=eyJrIjoiZTdhZTJhN2UtOWQxNy00NjhlLWE4NDctYjAzNjM4M2FkMGQxIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 SALES REPORT2 IMAGE(attached in files section) IS THE REPORT AUTO-UPDATED WITH SALES DATA OF YEAR 2022.
 ### **Key Automation Steps:**
