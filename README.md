@@ -1,21 +1,24 @@
-# **TechnoEdge Sales Analysis Report –  Fully Automated Dashboard**
+# **TechnoEdge Sales Analysis Report**
 
 ## **Project Overview**
+## **Effortless Email Data Appending: Automated Without Manual Intervention**
+This project can be a fully automated sales analysis system in Power BI, designed to process monthly sales data received via email attachments. While the current implementation focuses on appending multiple files in a folder using Power Query, the concept can be extended to full automation.
 
-This project can be a **fully automated sales analysis system** in Power BI, designed to process **monthly sales data received via email attachments**. Without manually opening emails or attachments, **Power BI connects directly to an organizational email inbox**, extracts sales data using **Power Query Editor**, and updates the dashboard automatically.
-Effortless EMAIL Data appending-automated without manual intervention.
+In a fully automated setup, Power BI could connect directly to an organizational email inbox, extract sales data from attachments using Power Query Editor, and update the dashboard automatically—provided that email attachments maintain the same column name structure.
 
 [VIEW FILE HERE](https://app.powerbi.com/view?r=eyJrIjoiZTdhZTJhN2UtOWQxNy00NjhlLWE4NDctYjAzNjM4M2FkMGQxIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
-SALES REPORT2 IMAGE(attached in files section) IS THE REPORT AUTO-UPDATED WITH SALES DATA OF YEAR 2022.
-### **Key Automation Steps:**
+### **Current Implementation: Appending Multiple Files in Power Query**
+Appending Sales Data – Multiple files stored in a folder are appended using Power Query Editor, ensuring a seamless data refresh.
+
+### **Future Automation Concept: Key Steps**
 
 1. **Direct Email Integration** – Power BI connects to an **organizational email** to fetch attachments automatically.
 
-GET DATA→EXCHANGE→MICROSOFT EXCHANGE ONLINE→ORGANIZATIONAL EMAIL ID AND ACCOUNT CREDENTIALS AND PERMISSIONS.
+GET DATA→EXCHANGE→MICROSOFT EXCHANGE ONLINE→ORGANIZATIONAL EMAIL ID(WITH ACCOUNT CREDENTIALS AND PERMISSIONS)
 ![EMAIL INTEGRATION](https://github.com/user-attachments/assets/af60a0c8-a306-4e5b-b35e-273141e19e50)
 
-NAVIGATOR WINDOW→DISPLAY OPTIONS→MAIL 
+NAVIGATOR WINDOW→DISPLAY OPTIONS→ SELECT MAIL 
 
 **2.Data Extraction & Transformation** –Once mail table contents are extracted ,To extract attachments from the attachment column- Use **Excel.Workbook(ColumnName)** to filter and extract relevant sales data while removing unnecessary columns.
 ![ATTACHMENTY COLUMN](https://github.com/user-attachments/assets/14ddc997-6ffa-49ec-9c1c-61a3f74644ad)
@@ -35,6 +38,7 @@ NAVIGATOR WINDOW→DISPLAY OPTIONS→MAIL
 
 - **Power Query Transformations** – Cleans, structures, and prepares data for reporting.
 - **Scheduled Refresh** – Ensures the dashboard remains updated without manual effort.
+SALES REPORT2 IMAGE(attached in files section) IS THE REPORT AUTO-UPDATED WITH SALES DATA OF YEAR 2022.
 
 ## **Key Business Questions Addressed**
 
